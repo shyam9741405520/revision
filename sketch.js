@@ -33,7 +33,7 @@ function draw(){
     drawSprites();
   
 }
-
+// define the position of the ball in the database
 function writePosition(x,y){
   database.ref('ball/position').set({
     'x': position.x + x ,
